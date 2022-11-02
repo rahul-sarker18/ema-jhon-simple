@@ -11,6 +11,16 @@
 .cart-container{
     background-color: rgba(255, 153, 0, 0.3);
 }
+
+.pagenition{
+    text-align: center;
+}
+.pagenition button {
+    gap: 10px;
+}
+.pagenition .sleact {
+    background: yellowgreen;
+}
 @media screen and (max-width:1100px) {
     .products-container{
         grid-template-columns: repeat(2, 1fr);
