@@ -14,6 +14,7 @@
 
 .pagenition{
     text-align: center;
+    margin: 50px;
 }
 .pagenition button {
     gap: 10px;
