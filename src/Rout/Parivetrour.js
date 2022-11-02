@@ -9,6 +9,7 @@ const Parivetrour = ({children}) => {
     if(loder){
         return<div>loding..........</div>
     }
+    
 
     if(usre && usre.uid){
         return children;
