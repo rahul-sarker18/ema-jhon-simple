@@ -19,7 +19,7 @@ function App() {
       children: [
         {
           path: "/",
-          loader: () => fetch("http://localhost:5000/products"),
+          // loader: () => fetch("https://ema-john-sarver-rahul-sarker18.vercel.app/products"),
           element: <Shop></Shop>,
         },
         {
